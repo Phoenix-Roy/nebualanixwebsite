@@ -130,7 +130,7 @@
             {
               "title": "Exclude from Sitemap?",
               "name": "excludeFromSitemap",
-              "type": "boolean",
+              "type": "boolean"
             },
             {
               "title": "Sitemap Change Frequency",
@@ -195,12 +195,12 @@
           "title": "Permalink",
           "name": "permalink",
           "type": "string",
-          "single": true,
+          "single": true
         },
         {
           "title": "Exclude from collections?",
           "name": "eleventyExcludeFromCollections",
-          "type": "boolean",
+          "type": "boolean"
         }
       ]
     }
@@ -226,18 +226,18 @@
       }
     },
     {
-      "name": "SV",
+      "name": "FR",
       "configuration": {
         "frontMatter.content.pageFolders": [
           {
             "title": "Posts",
-            "path": "[[workspace]]/src/sv/posts",
-            "previewPath": "sv/skriv"
+            "path": "[[workspace]]/src/fr/posts",
+            "previewPath": "fr/articles"
           },
           {
             "title": "Pages",
-            "path": "[[workspace]]/src/sv/pages",
-            "previewPath": "sv"
+            "path": "[[workspace]]/src/fr/pages",
+            "previewPath": "fr"
           }
         ],
         "frontMatter.content.publicFolder": "[[workspace]]/src"
@@ -624,8 +624,16 @@
       ]
     }
   ],
-  "frontMatter.custom.scripts": [{
-    "title": "Generate open graph image",
-    "script": ".frontmatter/scripts/opengraph.js"
-  }]
+  "frontMatter.custom.scripts": [
+    {
+      "title": "Generate open graph image",
+      "script": ".frontmatter/scripts/opengraph.js"
+    }
+  ],
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "posts",
+      "path": "[[workspace]]/src/en/posts"
+    }
+  ]
 }

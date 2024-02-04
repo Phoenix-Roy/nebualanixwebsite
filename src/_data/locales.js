@@ -3,12 +3,12 @@ module.exports = {
         dir: 'ltr',
         label: 'English',
         shorthand: 'EN',
-        locale: 'en-gb'
+        locale: 'en-CA'
     },
-    sv: {
+    fr: {
         dir: 'ltr',
-        label: 'Svenska',
-        shorthand: 'SE',
-        locale: 'sv-se'
+        label: 'Français',
+        shorthand: 'FR',
+        locale: 'fr-CA'
     }
 }

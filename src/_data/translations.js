@@ -1,10 +1,10 @@
 module.exports = {
     en: {
         meta: {
-            title: 'elva',
+            title: 'Phoenix Roy',
             rssTitle: 'RSS Feed',
             jsonTitle: 'JSON Feed',
-            description: 'A multilingual, clean, green, 11ty starter theme',
+            description: 'The personal website of Phoenix Roy',
             opengraphDefaultAlt: 'An English description of the default opengraph image'
         },
         header: {
@@ -23,28 +23,28 @@ module.exports = {
         dark: 'Dark',
         light: 'Light'
     },
-    sv: {
+    fr: {
         meta: {
-            title: 'elva',
+            title: 'Phoenix Roy',
             rssTitle: 'RSS Feed',
             jsonTitle: 'JSON Feed',
-            description: 'A multilingual clean green 11ty starter theme',
+            description: 'Le site personnel de Phoenix Roy',
             opengraphDefaultAlt: 'A Swedish description of the default opengraph image'
         },
         header: {
-            skipLink: 'Hoppa till innehållet',
-            home: 'Hem'
+            skipLink: 'Aller au contenu',
+            home: 'Page d\'accueil'
         },
         readingTime: {
-            underMinute: 'Mindre än 1 minut att läsa',
-            minute: '1 minut till läsaren',
-            other: '{{ minutes }} minuter att läsa'
+            underMinute: 'Moins d\'une minute pour lire',
+            minute: '1 minute pour lire',
+            other: '{{ minutes }} minutes pour lire'
         },
         feeds: {
-            info: 'Detta är ett RSS feed. Kopiera och klistra in webbadressen i din flödesläsare. Besök <a href="https://aboutfeeds.com">About Feeds</a> för att lära dig mer om RSS.',
-            title: 'Nyligen publicerad'
+            info: 'Ceci est un flux RSS. Copiez et collez l\'URL dans votre application RSS.',
+            title: 'Récemment publié'
         },
-        dark: 'Mörk',
-        light: 'Ljus'
+        dark: 'Mode sombre',
+        light: 'Mode lumière'
     }
 }
