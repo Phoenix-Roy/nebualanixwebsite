@@ -1,7 +1,6 @@
 ---
 title: Hello world
 date: 2024-02-04
-draft: true
 seo:
   title: Hello world
   description: The first post on Phoenix Roy's website.

@@ -13,7 +13,7 @@
     "release-major": "npm version major --force && npm publish"
   },
   "bugs": {
-    "url": "https://github.com/scottsweb/elva/issues"
+    "url": "https://github.com/Phoenix-Roy/elva/issues"
   },
   "keywords": [
     "eleventy",
@@ -29,7 +29,7 @@
   ],
   "author": {
     "name": "Phoenix R.",
-    "url": "https://scott.ee",
+    "url": "https://nebulanix.netlify.app/",
     "email": "royphoenix@protonmail.com"
   },
   "license": "MIT",

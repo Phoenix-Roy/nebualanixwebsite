@@ -1,7 +1,6 @@
 ---
 title: Portfolio
 date: 2024-02-04
-draft: true
 ---
 Here's where you can find projects I've worked on!
 
