@@ -5,26 +5,26 @@ module.exports = {
 			url: '/about/'
 		},
 		{
-			text: 'Documentation',
+			text: 'Blog posts',
 			url: '/'
 		},
 		{
 			text: 'GitHub',
-			url: 'https://github.com/scottsweb/elva'
+			url: 'https://github.com/Phoenix-Roy/elva'
 		}
     ],
-    sv: [
+    fr: [
 		{
-			text: 'Om',
-			url: '/om/'
+			text: 'Biographie',
+			url: '/biographie/'
 		},
 		{
-			text: 'Dokumentation',
+			text: 'Articles',
 			url: '/'
 		},
 		{
 			text: 'GitHub',
-			url: 'https://github.com/scottsweb/elva'
+			url: 'https://github.com/Phoenix-Roy/elva'
 		}
     ]
 };
