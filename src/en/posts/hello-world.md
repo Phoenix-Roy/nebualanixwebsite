@@ -2,13 +2,12 @@
 title: Hello world
 date: 2024-02-04
 draft: true
-layout: post
-tags:
-    - introduction
-    - misc
 seo:
-    title: Hello world
-    description: The first post on Phoenix Roy's website.
+  title: Hello world
+  description: The first post on Phoenix Roy's website.
+categories:
+  - introduction
+  - misc
 ---
 Hello, and welcome to my new website (and blog)!
 

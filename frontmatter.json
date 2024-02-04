@@ -201,6 +201,11 @@
           "title": "Exclude from collections?",
           "name": "eleventyExcludeFromCollections",
           "type": "boolean"
+        },
+        {
+          "title": "categories",
+          "name": "categories",
+          "type": "categories"
         }
       ]
     }
