@@ -1,13 +1,13 @@
 ---
 title: About
 seo:
-  description: About Phoenix Roy, a writer and programmer from Canada.
-  title: About Phoenix Roy
+  description: About Phoenix R., a writer and programmer from Canada.
+  title: About Phoenix R.
 ---
 
 Hello, I'm Phoenix! I'm a programmer, writer, and web developer from Canada. This website serves as a place for my blog (where I talk about writing, programming, neurodivergence, and more) and for my portfolio.
 
-### Skills
+## Skills
 
 * HTML5/CSS
 * Web accessibility
@@ -18,13 +18,13 @@ Hello, I'm Phoenix! I'm a programmer, writer, and web developer from Canada. Thi
 * PHP
 * Content writing
 
-### Currently learning
+## Currently learning
 
 * React
 * Next.js
 * Ruby and Ruby on Rails
 
-### Links
+## Links
 
 * [Medium](https://medium.com/@nebulanix)
 * [Github](https://github.com/Phoenix-Roy)

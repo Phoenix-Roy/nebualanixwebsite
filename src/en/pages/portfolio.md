@@ -5,10 +5,10 @@ draft: true
 ---
 Here's where you can find projects I've worked on!
 
-### Programming
+## Programming
 
 Nothing to show here yet.
 
-### Writing
+## Writing
 
 You can find most of my writing over on [Medium](https://medium.com/@nebulanix). More writing will be added to this site soon!

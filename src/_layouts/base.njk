@@ -50,6 +50,9 @@
         <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="{{ settings.themeColorDark }}">
         {% if settings.isStaging or noIndex %}<meta name="robots" content="noindex, nofollow" />{% endif %}
         {% if settings.author.fediverseProfile %}<link href="{{ settings.author.fediverseProfile }}" rel="me">{% endif %}
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
         <!-- set theme before page renders to stop fouc -->
         <script>document.documentElement.dataset.theme = localStorage.getItem('theme') === null ? window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light' : localStorage.getItem('theme')</script>
