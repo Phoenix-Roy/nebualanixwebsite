@@ -16,7 +16,7 @@ module.exports = {
     fr: [
 		{
 			text: 'Biographie',
-			url: '/biographie/'
+			url: '/about/'
 		},
 		{
 			text: 'Articles',

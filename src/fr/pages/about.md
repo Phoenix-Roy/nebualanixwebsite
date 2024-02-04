@@ -1,24 +1,31 @@
 ---
 title: Biographie
-slug: biographie
+slug: about
 seo:
   description: À propos de Phoenix Roy, écrivain et programmeur canadien.
 ---
 
-Hello, I'm Phoenix! I'm a programmer, writer, and web developer from Canada.
+Salut, je m'appelle Phoenix! Je suis programmeur et écrivain canadien. Ce site Web contient mon blog et mon portfolio.
 
-### Skills
+### Compétences
 
 * HTML5/CSS
-* Web accessibility
-* Responsive web development
-* 11ty/Eleventy (static site generator)
-* Nunjucks (templating language used with Eleventy)
+* Développement web accessible
+* Développement web réactif
+* 11ty/Eleventy (générateur de sites statiques)
+* Nunjucks
 * JavaScript
 * PHP
 
-### Currently learning
+### J'apprends actuellement
 
 * React
 * Next.js
-* Ruby and Ruby on Rails
+* Ruby et Ruby on Rails
+
+### Liens web
+
+* [Medium](https://medium.com/@nebulanix)
+* [Github](https://github.com/Phoenix-Roy)
+* [LinkedIn](https://www.linkedin.com/in/phoenix-roy-b01a70204)
+* [freeCodeCamp](https://www.freecodecamp.org/royphoenix)

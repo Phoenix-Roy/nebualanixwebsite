@@ -1,7 +1,7 @@
 {
   "themeColorLight": "#f2e2b9",
   "themeColorDark": "#372d11",
-  "cdn": true,
+  "cdn": false,
   "author": {
     "name": "Phoenix Roy",
     "email": "royphoenix@protonmail.com",
@@ -22,9 +22,6 @@
     "backgroundColor": "#f2e2b9",
     "display": "minimal-ui",
     "orientation": "portrait-primary",
-    "categories": [
-      "business",
-      "photo"
-    ]
+    "categories": []
   }
 }
