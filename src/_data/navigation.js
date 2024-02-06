@@ -9,6 +9,14 @@ module.exports = {
 			url: '/'
 		},
 		{
+			text: 'Portfolio',
+			url: '/portfolio/'
+		},
+		{
+			text: 'Works in Progress',
+			url: '/wips/'
+		},
+		{
 			text: 'GitHub',
 			url: 'https://github.com/Phoenix-Roy/elva'
 		}
@@ -21,6 +29,14 @@ module.exports = {
 		{
 			text: 'Articles',
 			url: '/'
+		},
+		{
+			text: 'Portfolio',
+			url: '/portfolio/'
+		},
+		{
+			text: 'Projets Actuels',
+			url: '/wips/'
 		},
 		{
 			text: 'GitHub',

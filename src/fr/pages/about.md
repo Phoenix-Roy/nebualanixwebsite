@@ -22,6 +22,7 @@ Salut, je m'appelle Phoenix! Je suis programmeur et écrivain canadien. Ce site 
 * React
 * Next.js
 * Ruby et Ruby on Rails
+* Electron
 
 ## Liens web
 

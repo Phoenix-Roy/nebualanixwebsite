@@ -5,7 +5,7 @@ module.exports = {
             rssTitle: 'RSS Feed',
             jsonTitle: 'JSON Feed',
             description: 'The personal website of Phoenix Roy',
-            opengraphDefaultAlt: 'An English description of the default opengraph image'
+            opengraphDefaultAlt: 'Phoenix'
         },
         header: {
             skipLink: 'Skip to content',
@@ -26,10 +26,10 @@ module.exports = {
     fr: {
         meta: {
             title: 'Phoenix Roy',
-            rssTitle: 'RSS Feed',
-            jsonTitle: 'JSON Feed',
+            rssTitle: 'Flux RSS',
+            jsonTitle: 'Flux JSON',
             description: 'Le site personnel de Phoenix Roy',
-            opengraphDefaultAlt: 'A Swedish description of the default opengraph image'
+            opengraphDefaultAlt: 'Phoenix'
         },
         header: {
             skipLink: 'Aller au contenu',
@@ -41,7 +41,7 @@ module.exports = {
             other: '{{ minutes }} minutes pour lire'
         },
         feeds: {
-            info: 'Ceci est un flux RSS. Copiez et collez l\'URL dans votre application RSS.',
+            info: 'Ceci est un flux RSS. Copiez et collez l\'URL dans votre lecteur RSS.',
             title: 'Récemment publié'
         },
         dark: 'Mode sombre',
