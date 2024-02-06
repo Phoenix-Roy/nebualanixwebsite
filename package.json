@@ -1,7 +1,7 @@
 {
-  "name": "elva",
+  "name": "nebulanixwebsite",
   "version": "1.0.3",
-  "description": "A multilingual, clean, green, 11ty starter theme",
+  "description": "My personal website",
   "main": "index.js",
   "scripts": {
     "build": "export NODE_ENV=production && rimraf dist && eleventy",
@@ -13,13 +13,11 @@
     "release-major": "npm version major --force && npm publish"
   },
   "bugs": {
-    "url": "https://github.com/Phoenix-Roy/elva/issues"
+    "url": "https://github.com/Phoenix-Roy/nebulanixwebsite/issues"
   },
   "keywords": [
     "eleventy",
     "11ty",
-    "starter",
-    "theme",
     "i18n",
     "rss",
     "markdown",

@@ -18,7 +18,7 @@ module.exports = {
 		},
 		{
 			text: 'GitHub',
-			url: 'https://github.com/Phoenix-Roy/elva'
+			url: 'https://github.com/Phoenix-Roy/nebulanixwebsite'
 		}
     ],
     fr: [
@@ -40,7 +40,7 @@ module.exports = {
 		},
 		{
 			text: 'GitHub',
-			url: 'https://github.com/Phoenix-Roy/elva'
+			url: 'https://github.com/Phoenix-Roy/nebulanixwebsite'
 		}
     ]
 };
