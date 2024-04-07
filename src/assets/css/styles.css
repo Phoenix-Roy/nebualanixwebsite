@@ -487,3 +487,50 @@ a[aria-current="page"] {
     font-size: var(--step--1);
     display: block;
 }
+
+.embeddable-buttondown-form {
+	width: 100%;
+	box-shadow: none;
+	border: 0;
+	text-align: center;
+}
+
+.embeddable-buttondown-form input[type="email"] {
+	padding: .5rem 1.25rem;
+  	color: #1f2937;
+  	font-size: 1rem;
+  	line-height: 1.5rem;
+  	font-weight: 500;
+  	-webkit-box-flex: 1;
+  	-ms-flex: 1 1 0%;
+  	flex: 1 1 0%;
+  	border-radius: 9999px;
+  	border-width: 1px;
+  	border-color: transparent;
+}
+
+.embeddable-buttondown-form input[type="submit"] {
+	display: -webkit-box;
+  	display: -ms-flexbox;
+  	display: flex;
+  	padding: .5rem 1.25rem;
+  	color: #fff;
+  	font-size: 1rem;
+  	line-height: 1.5rem;
+  	font-weight: 500;
+  	text-align: center;
+  	text-decoration: none;
+  	-webkit-box-flex: 1;
+  	-ms-flex: 1 1 0%;
+  	flex: 1 1 0%;
+  	-webkit-box-align: center;
+  	-ms-flex-align: center;
+  	align-items: center;
+  	border-radius: 9999px;
+  	border-width: 1px;
+  	border-color: transparent;
+  	cursor: pointer;
+  	-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+  	box-shadow: 0 1px 2px #0000000d;
+	background-color: #4338ca;
+}
