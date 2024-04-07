@@ -57,7 +57,8 @@
     --tracking: -0.02ch;
     --tracking-s: -0.055ch;
     --gutter: var(--space-s-m);
-	--input-margin: var(--gutter) / 4;
+	--gutter2: 40px;
+	--input-margin: var(--gutter2) / 4;
 	--form-width: 550px;
 	--label-height: 30px;
     --border-radius: var(--step-0);

@@ -496,11 +496,11 @@ form {
 }
 form:after {
 	content: "Enter your email and click on subscribe";
-	color: #BBBBBB;
+	color: var(--foreground-soft);
 	font-size: var(--step--1);
 }
 label {
-	color: #808080;
+	color: var(--foreground-soft);
 	font-size: var(--step-0);
 	display: table-cell;
 	vertical-align: bottom;
@@ -508,23 +508,21 @@ label {
 	height: var(--label-height);
 }
 label:before {
-	content: "\f1d8";
-	font-family: fontAwesome;
-	margin-right: calc(var(--gutter) / 4);
-	color: #808080;
+	content: "&#128231;";
+	margin-right: calc(var(--gutter2) / 4);
 }
 input {
 	height: 50px;
 	line-height: 50px;
-	padding: 0 calc(var(--gutter) / 2);
+	padding: 0 calc(var(--gutter2) / 2);
 	font: inherit;
 }
 input[type="email"] {
 	display: block;
 	width: 100%;
-	background-color: #FFFFFF;
+	background-color: var(--white);
 	border-radius: 10px;
-	border: 1px solid #808080;
+	border: 1px solid var(--foreground-soft);
 	margin: var(--input-margin) 0;
 	-webkit-transition: border-color 0.4s ease 0, padding-right 0.2s ease 0.2s;
 	-moz-transition: border-color 0.4s ease 0, padding-right 0.2s ease 0.2s;
@@ -533,7 +531,7 @@ input[type="email"] {
 }
 input[type="email"]:focus {
 	outline: none;
-	border-color: #33bb63;
+	border-color: var(--nord14);
 	padding-right: 120px;
 	-webkit-transition: padding-right 0.2s ease 0 !important;
 	-moz-transition: padding-right 0.2s ease 0 !important;
@@ -543,14 +541,14 @@ input[type="email"]:focus {
 input[type="email"]:focus + input[type="submit"] {
 	visibility: visible;
 	opacity: 1;
-	border-color: #33bb63;
+	border-color: var(--nord14);
 }
 input[type="submit"] {
 	border: none;
-	border-left: 1px solid #808080;
+	border-left: 1px solid var(--foreground-soft);
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
-	color: #33bb63;
+	color: var(--nord14);
 	background-color: inherit;
 	cursor: pointer;
 	position: absolute;
@@ -564,8 +562,8 @@ input[type="submit"] {
 	transition: all 0.4s ease 0;
 }
 input[type="submit"]:hover {
-	background-color: #33bb63;
-	color: #FFFFFF;
+	background-color: var(--nord14);
+	color: var(--white);
 }
 ::-webkit-input-placeholder {
 	text-transform: capitalize;
@@ -580,5 +578,5 @@ input[type="submit"]:hover {
 	text-transform: capitalize;
 }
 input:-webkit-autofill {
-	-webkit-box-shadow: 0 0 0px 1000px #FFFFFF inset;
+	-webkit-box-shadow: 0 0 0px 1000px var(--white) inset;
 }
