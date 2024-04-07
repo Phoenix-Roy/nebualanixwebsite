@@ -24,7 +24,7 @@ Pas de données disponibles
 
 ### Articles Récents sur Medium
 
-Voici mes articles les plus récents sur Medium. Pour une liste complète, 
+Voici mes articles les plus récents sur Medium (en anglais). Pour une liste complète, 
 consultez mon [profil](https://medium.com/@nebulanix).
 
 {% for article in medium %}

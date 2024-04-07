@@ -7,7 +7,7 @@ Voici mes projets actuels!
 
 ## La Programmation
 
-* Une application open source pour écrire des livres, pour ordinateur et potentiellement aussi pour mobile et pour le web (je déciderai quand j'ai un prototype fonctionnel). Je crée ceci parce que rien d'autre ne correspond à ce que je veux de ce logiciel.
+* Une application pour écrire des livres, pour le web. Je crée ceci parce que rien d'autre ne correspond à ce que je veux de ce logiciel.
 * Un réseau social open source qui est très basique par défaut, mais personnalisable. Je fais ça pour ma femme, parce que elle a des avis très forts sur les réseaux sociaux. Chaque fonctionnalité qui n'est pas une fonctionnalité nécessaire ou une fonctionnalité de base devrait être optionnelle par défaut, et un flux d'activités chronologique devrait être le défaut.
 
 ## L'écriture

@@ -22,8 +22,7 @@ Hello, I'm Phoenix! I'm a programmer, writer, and web developer from Canada. Thi
 
 * React
 * Next.js
-* Ruby and Ruby on Rails
-* Electron
+* PostgreSQL
 
 ## Links
 
