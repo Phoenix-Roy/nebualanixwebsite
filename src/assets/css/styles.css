@@ -488,47 +488,69 @@ a[aria-current="page"] {
     display: block;
 }
 
-.embeddable-buttondown-form {
+form {
 	width: 400px;
-  	margin: 0 auto;
-  	text-align: center;
-  	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
 }
-
-.embeddable-buttondown-form:after {
-   	content: "Enter your email and click on subscribe";
-   	color: var(--foreground-soft);
-   	font-size: 0.9em;
+form:after {
+	content: "Enter your email and click on subscribe";
+	color: #BBBBBB;
+	font-size: 12px;
 }
-
-.embeddable-buttondown-form label {
-	color: var(--foreground-soft);
+label {
+	color: #808080;
+	font-size: 18px;
 	display: table-cell;
 	vertical-align: bottom;
 	width: 400px;
 	height: 30px;
 }
-
- .embeddable-buttondown-form label:before {
+label:before {
 	content: "\f1d8";
 	font-family: fontAwesome;
 	margin-right: 10px;
-	color: var(--foreground-soft);
+	color: #808080;
 }
-
-.embeddable-buttondown-form input {
+input {
 	height: 50px;
 	line-height: 50px;
 	padding: 0 20px;
 	font: inherit;
 }
-
-.embeddable-buttondown-form input[type="submit"] {
+input[type="email"] {
+	display: block;
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	border: 1px solid #808080;
+	margin: 10px 0;
+	-webkit-transition: border-color 0.4s ease 0, padding-right 0.2s ease 0.2s;
+	-moz-transition: border-color 0.4s ease 0, padding-right 0.2s ease 0.2s;
+	-o-transition: border-color 0.4s ease 0, padding-right 0.2s ease 0.2s;
+	transition: border-color 0.4s ease 0, padding-right 0.2s ease 0.2s;
+}
+input[type="email"]:focus {
+	outline: none;
+	border-color: #33bb63;
+	padding-right: 120px;
+	-webkit-transition: padding-right 0.2s ease 0 !important;
+	-moz-transition: padding-right 0.2s ease 0 !important;
+	-o-transition: padding-right 0.2s ease 0 !important;
+	transition: padding-right 0.2s ease 0 !important;
+}
+input[type="email"]:focus + input[type="submit"] {
+	visibility: visible;
+	opacity: 1;
+	border-color: #33bb63;
+}
+input[type="submit"] {
 	border: none;
-	border-left: 1px solid var(--foreground-soft);
+	border-left: 1px solid #808080;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
-	color: var(--nord14);
+	color: #33bb63;
 	background-color: inherit;
 	cursor: pointer;
 	position: absolute;
@@ -541,56 +563,22 @@ a[aria-current="page"] {
 	-o-transition: all 0.4s ease 0;
 	transition: all 0.4s ease 0;
 }
-.embeddable-buttondown-form input[type="submit"]:hover {
-	background-color: var(--nord14);
-	color: #fff;
+input[type="submit"]:hover {
+	background-color: #33bb63;
+	color: #FFFFFF;
 }
-
-.embeddable-buttondown-form input[type="email"] {
-	display: block;
-	width: 100%;
-	background-color: #fff;
-	border-radius: 10px;
-	border: 1px solid var(--foreground-soft);
-	margin: 10px 0;   
-	-webkit-transition: border-color 0.4s ease 0, padding-right 0.2s ease 0.2s;
-	-moz-transition: border-color 0.4s ease 0, padding-right 0.2s ease 0.2s;
-	-o-transition: border-color 0.4s ease 0, padding-right 0.2s ease 0.2s;
-	transition: border-color 0.4s ease 0, padding-right 0.2s ease 0.2s;
-}
-
-.embeddable-buttondown-form input[type="email"]:focus {
-	outline: none;
-	border-color: var(--nord14);
-	padding-right: 120px;
-	-webkit-transition: padding-right 0.2s ease 0 !important;
-	-moz-transition: padding-right 0.2s ease 0 !important;
-	-o-transition: padding-right 0.2s ease 0 !important;
-	transition: padding-right 0.2s ease 0 !important;
-}
-
-.embeddable-buttondown-form input[type="email"]:focus input[type="submit"] {
-	visibility: visible;
-	opacity: 1;
-	border-color: var(--nord14);
-}
-  
 ::-webkit-input-placeholder {
 	text-transform: capitalize;
 }
-  
 :-moz-placeholder {
-	text-transform: capitalize;  
-}
-  
-::-moz-placeholder {
-	text-transform: capitalize;  
-}
-  
-:-ms-input-placeholder {  
 	text-transform: capitalize;
 }
-  
+::-moz-placeholder {
+	text-transform: capitalize;
+}
+:-ms-input-placeholder {
+	text-transform: capitalize;
+}
 input:-webkit-autofill {
-	-webkit-box-shadow: 0 0 0px 1000px #fff inset;
+	-webkit-box-shadow: 0 0 0px 1000px #FFFFFF inset;
 }
